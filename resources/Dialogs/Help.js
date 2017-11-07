@@ -1,7 +1,5 @@
 var builder = require("botbuilder");
 
-var plans = require("./financialPlans");
-
 const helpDialog = {
   name: "helpDialog",
   dialogs: [
@@ -14,8 +12,7 @@ const helpDialog = {
         session.send("Sorry I did not get that,");
         next();
       }
-    },
-    plans.all.dialog
+    }
   ]
 };
 module.exports = helpDialog;

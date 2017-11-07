@@ -62,10 +62,6 @@ bot.recognizer(luisRecognizer);
 var intents = new builder.IntentDialog({
   recognizers: [
     regeX.clearDataRegex,
-    regeX.retirementRegex,
-    regeX.personalRegex,
-    regeX.weddingRegex,
-    regeX.educationRegex,
     luisRecognizer
   ],
   recognizeOrder: "series"
