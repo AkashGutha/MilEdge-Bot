@@ -1,4 +1,4 @@
-# Immersive Portfolio Bot
+# MileEdge Portfolio Bot
 
 ### Conversational AI use-case in BFS. The project uses one use case from finance vertical to create a conversation between bot and user to make a financial plan acccustomed to customer needs. The bot will be integrated as Cortanata Skill through adding Cortana channel and will use luis.ai for Natural Language Processing.
 
