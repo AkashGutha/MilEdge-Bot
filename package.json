@@ -1,0 +1,30 @@
+{
+  "name": "miledge-bot",
+  "version": "1.0.0",
+  "description": "Bot starter",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://578118@code.cognizant.com/578118/ImmersivePortfolio.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Bhomit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://578118@code.cognizant.com/578118/ImmersivePortfolio.git/issues"
+  },
+  "homepage": "https://578118@code.cognizant.com/578118/ImmersivePortfolio.git#readme",
+  "dependencies": {
+    "botbuilder": "^3.8.4",
+    "dotenv": "^4.0.0",
+    "microsoft-adaptivecards": "^0.6.1",
+    "mime": "^2.0.3",
+    "restify": "^5.0.0"
+  }
+}
