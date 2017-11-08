@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://578118@code.cognizant.com/578118/ImmersivePortfolio.git"
+    "url": "https://github.com/AkashGutha/MilEdge-Bot.git"
   },
   "keywords": [
     "bot"
@@ -17,9 +17,9 @@
   "author": "Bhomit",
   "license": "ISC",
   "bugs": {
-    "url": "https://578118@code.cognizant.com/578118/ImmersivePortfolio.git/issues"
+    "url": "https://github.com/AkashGutha/MilEdge-Bot.git/issues"
   },
-  "homepage": "https://578118@code.cognizant.com/578118/ImmersivePortfolio.git#readme",
+  "homepage": "hhttps://github.com/AkashGutha/MilEdge-Bot.git#readme",
   "dependencies": {
     "botbuilder": "^3.8.4",
     "dotenv": "^4.0.0",
