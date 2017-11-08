@@ -17,7 +17,7 @@ console.log(process.env.MICROSOFT_APP_PASSWORD)
 
 //Import Dialogs
 var Greeting = require("./resources/Dialogs/Greetings");
-var Help = require("./resources/Dialogs/Help");
+var Dress = require("./resources/Dialogs/Dress");
 
 //==================================================
 //Initiates dialog by matching recognized intent
@@ -25,8 +25,8 @@ var Help = require("./resources/Dialogs/Help");
 
 //Clear User Data
 intents.matches("Greeting", Greeting.dialogs);
+intents.matches("Dress", Dress.dialogs);
 
-intents.onDefault(Help.dialogs);
 
 //Routes bot dialogs to specific intent dialogs
 bot.dialog("/", intents);

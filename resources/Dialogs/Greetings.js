@@ -5,7 +5,7 @@ const greetingDialog = {
   name: "greetDialog",
   dialogs: [
     function(session, args, next) {
-      session.send("hello");
+      session.send("Hi! This is MilEdge Assistant, How can I assist you?");
         next();
       }
   ]

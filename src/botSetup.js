@@ -1,8 +1,3 @@
-//=====================================
-// Contains code to setup bot framework
-//~@Bhomitb
-//=====================================
-
 //Node Imports
 var restify = require("restify");
 var builder = require("botbuilder");
@@ -30,17 +25,6 @@ server.get(
     default: "index.html"
   })
 );
-
-server.get("/pdf", function(req, res, next) {
-  fs.readFile(__dirname + "/../public/plans.pdf", function(err, data) {
-    if (err) res.send(200, err);
-    else {
-      res.contentType = mime.getType("pdf");
-      res.writeHead(200);
-      res.end(data);
-    }
-  });
-});
 
 // Create chat connector for communicating with the Bot Framework Service
 var connector = new builder.ChatConnector({
